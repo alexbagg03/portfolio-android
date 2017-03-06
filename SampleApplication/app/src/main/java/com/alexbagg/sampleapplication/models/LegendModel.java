@@ -1,0 +1,35 @@
+package com.alexbagg.sampleapplication.models;
+
+/**
+ * Created by Alex Bagg on 3/5/17.
+ */
+
+public class LegendModel {
+
+    /*//////////////////////////////////////////////////////////
+    // MEMBERS
+    *///////////////////////////////////////////////////////////
+    private String mName;
+    private String mGame;
+
+
+    /*//////////////////////////////////////////////////////////
+    // PROPERTIES
+    *///////////////////////////////////////////////////////////
+    public String getName(){
+        return mName;
+    }
+    public String getGame(){
+        return mGame;
+    }
+
+
+    /*//////////////////////////////////////////////////////////
+    // CONSTRUCTOR
+    *///////////////////////////////////////////////////////////
+    public LegendModel(String name, String game) {
+        mName = name;
+        mGame = game;
+    }
+
+}

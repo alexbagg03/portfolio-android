@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SampleApplication</string>
+
+    <!-- MainActivity -->
+    <string name="title_blizzard_legends">Blizzard Legends</string>
+    <string name="label_summon_a_legend">Summon a Legend</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_game">Game</string>
+    <string name="action_summon">Summon</string>
+
+</resources>
